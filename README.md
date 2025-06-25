@@ -11,8 +11,10 @@ Take a peek under the hood to see how the entire site is structured and styled! 
 - Clean, modern & fully responsive design
 - Smooth entrance animations
 - Modular, maintainable React components
-- Contact form powered by Formspree
+- Contact form powered by Formspree + Google reCAPTCHA
 - SEO & social media optimized meta tags
+- Google Search Console verification via meta tag
+- Sitemap integration for better indexing
 - Dedicated sections : About Me, Skills, Experience, and more
 
 ---
@@ -25,6 +27,7 @@ Take a peek under the hood to see how the entire site is structured and styled! 
 | **Styled Components** | [Styled Docs](https://styled-components.com/)    |
 | **Animate.css**     | [Animate.css Docs](https://animate.style/)         |
 | **Formspree**       | [Formspree Docs](https://formspree.io/)            |
+| **Google reCAPTCHA**| [reCAPTCHA Docs](https://www.google.com/recaptcha/) |
 | **Vite**            | [Vite Docs](https://vitejs.dev/)                   |
 
 ---
@@ -74,6 +77,9 @@ npm install --legacy-peer-deps
    </code>
    </pre>
 
+3. **Google reCAPTCHA v2 Error (Invalid domain for site key)**  
+   Make sure you've added your deployed domain in the [reCAPTCHA Admin Console](https://www.google.com/recaptcha/admin/) and used the correct site key in your code.
+
 ---
 
 ### 🚀 Start the Development Server
@@ -106,8 +112,14 @@ You can deploy this portfolio on platforms like :
 - [GitHub Pages](https://pages.github.com/)
 
 After deployment :
-- Update your domain in `sitemap.xml`
-- Add the correct `meta` verification tag from Google Search Console
+
+- Update your live domain in `public/sitemap.xml`
+- Submit sitemap to [Google Search Console](https://search.google.com/search-console/about)
+- Add the correct `<meta name="google-site-verification">` tag to the `<head>` of your `index.html` for ownership verification
+- Ensure your Formspree form ID is correctly integrated in `Form.tsx`
+- Ensure Google reCAPTCHA site key is valid for your domain
+
+> ⚠️ Do **not remove** the `google-site-verification` meta tag after verification.
 
 ---
 
