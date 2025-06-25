@@ -68,7 +68,7 @@ export function Form() {
         <ValidationError prefix="Message" field="message" errors={state.errors} />
 
         <ReCAPTCHA
-          sitekey="6Lfj9NYfAAAAAP8wPLtzrsSZeACIcGgwuEIRvbSg"
+          sitekey="6Lftcm0rAAAAALLM-vE0qn8arqeD5zzG6LhQPwUt"
           onChange={() => setIsHuman(true)}
         />
 
