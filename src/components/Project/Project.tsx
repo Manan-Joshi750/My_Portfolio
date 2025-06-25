@@ -52,11 +52,13 @@ export function Project() {
           },
         ].map((project, index) => (
           <div
-            className="project"
-            key={index}
-            data-aos="flip-left"
-            data-aos-delay={index * 100}
-          >
+              className="project"
+              key={index}
+              data-aos="zoom-in-up"
+              data-aos-duration="900"
+              data-aos-easing="ease-out-back"
+              data-aos-delay={index * 180}
+            >
             <header>
               <svg
                 width="50"
