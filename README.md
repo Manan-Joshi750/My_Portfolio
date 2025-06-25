@@ -35,15 +35,65 @@ Follow these steps to set up and run the project locally :
 
 <pre>
 <code>
-git clone https://github.com/yourusername/portfolio-website.git
-cd portfolio-website
-npm install
+git clone https://github.com/Manan-Joshi750/My_Portfolio.git
+cd My_Portfolio
+</code>
+</pre>
+
+### ✅ Install Dependencies
+
+If you face issues with `yarn`, use `npm` instead :
+
+<pre>
+<code>
+npm install --legacy-peer-deps
+</code>
+</pre>
+
+> This resolves peer dependency conflicts — especially with `react-animate-on-scroll` which expects an older React version.
+
+---
+
+### ⚙️ Additional Fixes
+
+1. **JSX Runtime Error (react/jsx-runtime not found)**  
+   Make sure you have the latest version of React and ReactDOM installed :
+
+   <pre>
+   <code>
+   npm install react@latest react-dom@latest
+   </code>
+   </pre>
+
+2. **react-toastify "render not found" error**  
+   Downgrade `react-toastify` to a compatible version if needed :
+
+   <pre>
+   <code>
+   npm install react-toastify@9.1.3
+   </code>
+   </pre>
+
+---
+
+### 🚀 Start the Development Server
+
+<pre>
+<code>
 npm run start
 </code>
 </pre>
 
-The app will be running at:  
-👉 `http://localhost:3000`
+Visit 👉 `http://localhost:3000` to view your portfolio live on your local machine.
+
+---
+
+### ⚠️ OneDrive Sync Issue
+
+During setup, if you see a folder named `~` that cannot be synced with OneDrive :
+
+- It's safe to **delete** this folder.  
+- It does **not affect** project functionality.
 
 ---
 
