@@ -116,9 +116,9 @@ export function About() {
             <strong>• 300+ on GeeksforGeeks</strong><br />
             <strong>• 100+ on Codeforces</strong><br />
             <br />
-            • I hold the <strong style={{ color: "var(--green)" }}>Knight</strong> badge on <strong>LeetCode</strong> (<strong>1933</strong>)<br />
-            • <strong style={{ color: "#00FFFF" }}>Specialist</strong> rank on <strong>Codeforces</strong> (<strong>1439</strong>)<br />
-            • <strong style={{ color: "#87CEEB" }}>3⭐ coder</strong> on <strong>CodeChef</strong> (<strong>1738</strong>)
+            • I hold the <strong style={{ color: "var(--green)" }}>Knight</strong> badge on <strong>LeetCode</strong> (<strong>1900+</strong>)<br />
+            • <strong style={{ color: "#00FFFF" }}>Specialist</strong> rank on <strong>Codeforces</strong> (<strong>1450+</strong>)<br />
+            • <strong style={{ color: "#87CEEB" }}>3⭐ coder</strong> on <strong>CodeChef</strong> (<strong>1700+</strong>)
           </p>
         </div>
       </Container>
