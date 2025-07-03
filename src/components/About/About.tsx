@@ -52,13 +52,13 @@ export function About() {
           <div className="experience" data-aos="fade-right" data-aos-delay="400">
             <h3>Experience:</h3>
             <div style={{ marginBottom: "1.5rem" }}>
-              <h4>C++ Programming Intern</h4>
-              <p>CodeAlpha | May 2025</p>
+              <h4>Data Analyst Intern (Python & SAS)</h4>
+              <p>Edulyt India | June 2025</p>
               <p>Remote</p>
             </div>
             <div>
-              <h4>Data Analyst Intern (Python & SAS)</h4>
-              <p>Edulyt India | June 2025</p>
+              <h4>C++ Programming Intern</h4>
+              <p>CodeAlpha | May 2025</p>
               <p>Remote</p>
             </div>
           </div>
