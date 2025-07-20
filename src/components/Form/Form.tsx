@@ -69,7 +69,29 @@ export function Form() {
 
         <ReCAPTCHA
           sitekey="6Lftcm0rAAAAALLM-vE0qn8arqeD5zzG6LhQPwUt"
-          onChange={() => setIsHuman(true)}
+          onChange={(token) => {
+            setIsHuman(true);
+            
+            // Send token to backend for verification
+            fetch("/verify-recaptcha", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json"
+              },
+              body: JSON.stringify({ token })
+            })
+            .then(res => res.json())
+            .then(data => {
+              if (!data.success) {
+                toast.error("Bot suspected. Please try again.");
+                setIsHuman(false); // Revert
+              }
+            })
+            .catch(() => {
+              toast.error("reCAPTCHA verification failed.");
+              setIsHuman(false);
+            });
+          }}
         />
 
         <button
