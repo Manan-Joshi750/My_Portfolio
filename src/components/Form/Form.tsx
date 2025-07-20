@@ -46,6 +46,7 @@ export function Form() {
   return (
     <Container>
       <h2>Get in touch using the form</h2>
+      <p>⚠️ Note : This form may not be functional due to backend configuration. Feel free to reach out directly via email or contact number. </p>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"

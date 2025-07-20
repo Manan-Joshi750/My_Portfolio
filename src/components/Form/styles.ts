@@ -9,6 +9,10 @@ export const Container = styled.div`
     text-align: center;
     margin-bottom: 2rem;
   }
+  p{
+      color: var(--green);
+      font-weight: 500;
+    }
   form{
     display: flex;
     flex-direction: column;
