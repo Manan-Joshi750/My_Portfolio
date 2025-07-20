@@ -9,10 +9,14 @@ export const Container = styled.div`
     text-align: center;
     margin-bottom: 2rem;
   }
-  p{
-      color: var(--green);
-      font-weight: 500;
-    }
+  p {
+  color: var(--green);
+  font-weight: 500;
+  text-align: center;
+  max-width: 60rem;
+  margin: 0 auto 2rem auto; /* top: 0, bottom: 2rem */
+  padding: 0 1rem;
+  }
   form{
     display: flex;
     flex-direction: column;
