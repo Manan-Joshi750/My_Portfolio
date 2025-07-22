@@ -46,14 +46,14 @@ export function About() {
             <h3>Education:</h3>
             <h4>B.Tech in Information Technology (IT)</h4>
             <p>NIT Jalandhar | 2023 - 2027</p>
-            <p>8.41 CGPA</p>
+            <p>8.30 CGPA</p>
           </div>
 
           <div className="experience" data-aos="fade-right" data-aos-delay="400">
             <h3>Experience:</h3>
             <div style={{ marginBottom: "1.5rem" }}>
               <h4>Data Analyst Intern (Python & SAS)</h4>
-              <p>Edulyt India | June 2025</p>
+              <p>Edulyt India | June 2025 - July 2025</p>
               <p>Remote</p>
             </div>
             <div>
