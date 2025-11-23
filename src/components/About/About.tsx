@@ -117,7 +117,7 @@ export function About() {
             <strong>• 50+ on Codeforces</strong><br />
             <br />
             • I hold the <strong style={{ color: "var(--green)" }}>Knight</strong> badge on <strong>LeetCode</strong> (<strong>2050+</strong>)<br />
-            • <strong style={{ color: "#00ffd0ff" }}>Specialist</strong> rank on <strong>Codeforces</strong> (<strong>1600+</strong>)<br />
+            • <strong style={{ color: "#00ffd0ff" }}>Specialist</strong> rank on <strong>Codeforces</strong> (<strong>1400+</strong>)<br />
             • <strong style={{ color: "#570dd8e9" }}>4⭐ coder</strong> on <strong>CodeChef</strong> (<strong>1800+</strong>)
           </p>
         </div>
