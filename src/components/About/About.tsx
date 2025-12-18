@@ -111,12 +111,12 @@ export function About() {
           <h2>Coding Profiles</h2>
           <p>
             I’m actively sharpening my problem-solving skills:<br />
-            <strong>• 1400+ problems on LeetCode</strong><br />
+            <strong>• 1500+ problems on LeetCode</strong><br />
             <strong>• 750+ on CodeChef</strong><br />
             <strong>• 800+ on GeeksforGeeks</strong><br />
             <strong>• 50+ on Codeforces</strong><br />
             <br />
-            • I hold the <strong style={{ color: "var(--green)" }}>Knight</strong> badge on <strong>LeetCode</strong> (<strong>2050+</strong>)<br />
+            • I hold the <strong style={{ color: "#006affeb" }}>Guardian</strong> badge on <strong>LeetCode</strong> (<strong>2150+</strong>)<br />
             • <strong style={{ color: "#00ffd0ff" }}>Specialist</strong> rank on <strong>Codeforces</strong> (<strong>1400+</strong>)<br />
             • <strong style={{ color: "#570dd8e9" }}>4⭐ coder</strong> on <strong>CodeChef</strong> (<strong>1800+</strong>)
           </p>
