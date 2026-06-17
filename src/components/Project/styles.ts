@@ -19,23 +19,25 @@ export const Container = styled.section`
 
     .project{
       padding: 2rem 1.8rem;
-      /* Glassmorphism styling */
-      background: rgba(255, 255, 255, 0.03);
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
+      background-color: #2b2b2b; /* Back to your original dark card */
       border-radius: 1.2rem;
-      transition: all 0.3s ease-in-out;
+      border: 1px solid transparent;
+      
+      /* Super smooth bouncy "spring" animation */
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      
       display: flex;
       flex-direction: column;
       height: 100%;
       color: #FFF;
       
-      /* Upgraded hover effect with green glow */
+      /* THE COOL UPGRADE: Lift, Scale, Pink Fill, and Neon Shadow */
       &:hover{
-        transform: translateY(-5px);
-        background: rgba(255, 255, 255, 0.05);
-        border-color: #23ce6b; 
-        box-shadow: 0 10px 20px -10px rgba(35, 206, 107, 0.5);
+        transform: translateY(-12px) scale(1.03);
+        background-color: var(--pink);
+        border-color: var(--pink);
+        box-shadow: 0 18px 40px -10px var(--pink);
+        z-index: 10;
       }
 
       header{
@@ -51,23 +53,23 @@ export const Container = styled.section`
           gap: 1rem;
         }
         
+        /* Added a playful pop to the GitHub icon on hover */
         a > img {
           width: 5.0rem;
+          transition: transform 0.3s ease;
+          &:hover {
+            transform: scale(1.2) rotate(5deg);
+          }
         }
       }
       
       h3{
         margin-bottom: 2rem;
-        font-size: 2.2rem;
       }
 
       p{
         letter-spacing: 0.12rem;
         margin-bottom: 2rem;
-        font-size: 1.6rem;
-        line-height: 1.5;
-        color: #d4d4d4; /* Slightly dimmed for modern contrast */
-        
         a{
           color: #FFFF;
           border-bottom: 1px solid var(--green);
@@ -84,12 +86,20 @@ export const Container = styled.section`
         .tech-list{
           display: flex;
           align-items: center;
-          flex-wrap: wrap; /* Prevents overflow if tech list is long */
+          flex-wrap: wrap; /* Keeps it safe on mobile */
           gap: 2rem;
           font-size: 1.4rem;
-          opacity: 0.8;
-          color: #aaaaaa;
+          opacity: 0.6;
+          transition: all 0.3s ease;
         }
+      }
+
+      /* Make the tech stack pop clearly when the background turns pink */
+      &:hover footer .tech-list {
+        opacity: 1;
+        color: #ffffff;
+        font-weight: 500;
+        text-shadow: 0px 1px 2px rgba(0,0,0,0.2);
       }
     }
   }
