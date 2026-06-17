@@ -6,6 +6,19 @@ export const Container = styled.section`
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 
+  /* Explicitly center the Coding Profiles section vertically */
+  &#coding-profiles {
+    align-items: center; 
+    
+    .about-image {
+      margin-top: 0; 
+      
+      img {
+        margin-top: 0; 
+      }
+    }
+  }
+
   .hard-skills {
     margin-top: 1.6rem;
     display: flex;
@@ -66,9 +79,7 @@ export const Container = styled.section`
     }
   }
 
-  /* ------------------------------------------- */
   /* WOW Enhancements for Coding Profiles Section */
-  /* ------------------------------------------- */
   .profiles-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -125,7 +136,6 @@ export const Container = styled.section`
       }
     }
 
-    /* Hover Animations & Glow Effects */
     &:hover {
       transform: translateY(-5px);
       background: rgba(255, 255, 255, 0.05);
@@ -151,7 +161,6 @@ export const Container = styled.section`
       border-color: rgba(47, 141, 70, 0.8);
     }
   }
-  /* ------------------------------------------- */
 
   @media only screen and (max-width: 480px) {
     .about-image {
