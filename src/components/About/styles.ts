@@ -12,9 +12,13 @@ export const Container = styled.section`
     
     .about-image {
       margin-top: 0; 
+      display: flex;             /* Add this */
+      justify-content: center;   /* Add this (centers horizontally) */
+      align-items: center;       /* Add this (centers vertically) */
       
       img {
         margin-top: 0; 
+        width: 75%;              /* Keep your preferred width */
       }
     }
   }
