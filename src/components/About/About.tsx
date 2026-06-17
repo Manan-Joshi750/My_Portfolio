@@ -46,7 +46,7 @@ export function About() {
             <h3>Education:</h3>
             <h4>B.Tech in Information Technology (IT)</h4>
             <p>NIT Jalandhar | 2023 - 2027</p>
-            <p>8.30 CGPA</p>
+            <p>8.28 CGPA</p>
           </div>
 
           <div className="experience" data-aos="fade-right" data-aos-delay="400">
@@ -109,17 +109,51 @@ export function About() {
         {/* Text from right → fade-left */}
         <div className="about-text" data-aos="fade-left">
           <h2>Coding Profiles</h2>
-          <p>
-            I’m actively sharpening my problem-solving skills:<br />
-            <strong>• 1500+ problems on LeetCode</strong><br />
-            <strong>• 750+ on CodeChef</strong><br />
-            <strong>• 800+ on GeeksforGeeks</strong><br />
-            <strong>• 50+ on Codeforces</strong><br />
-            <br />
-            • I hold the <strong style={{ color: "#006affeb" }}>Guardian</strong> badge on <strong>LeetCode</strong> (<strong>2150+</strong>)<br />
-            • <strong style={{ color: "#00ffd0ff" }}>Specialist</strong> rank on <strong>Codeforces</strong> (<strong>1400+</strong>)<br />
-            • <strong style={{ color: "#570dd8e9" }}>4⭐ coder</strong> on <strong>CodeChef</strong> (<strong>1800+</strong>)
+          <p style={{ marginBottom: "2rem" }}>
+            I’m actively sharpening my problem-solving skills across multiple platforms:
           </p>
+          
+          <div className="profiles-grid">
+            {/* LeetCode */}
+            <div className="profile-card leetcode">
+              <h3>LeetCode</h3>
+              <div className="stats">
+                <span className="number">1500+</span>
+                <span className="label">Problems</span>
+              </div>
+              <p className="badge" style={{ color: "#006affeb" }}>Guardian <span>(2200+)</span></p>
+            </div>
+
+            {/* CodeChef */}
+            <div className="profile-card codechef">
+              <h3>CodeChef</h3>
+              <div className="stats">
+                <span className="number">850+</span>
+                <span className="label">Problems</span>
+              </div>
+              <p className="badge" style={{ color: "#570dd8e9" }}>4⭐ Coder <span>(1800+)</span></p>
+            </div>
+
+            {/* Codeforces */}
+            <div className="profile-card codeforces">
+              <h3>Codeforces</h3>
+              <div className="stats">
+                <span className="number">100+</span>
+                <span className="label">Problems</span>
+              </div>
+              <p className="badge" style={{ color: "#00ffd0ff" }}>Specialist <span>(1400+)</span></p>
+            </div>
+
+            {/* GeeksforGeeks */}
+            <div className="profile-card gfg">
+              <h3>GeeksforGeeks</h3>
+              <div className="stats">
+                <span className="number">900+</span>
+                <span className="label">Problems</span>
+              </div>
+              <p className="badge" style={{ color: "var(--green)" }}>Institute Rank 3</p>
+            </div>
+          </div>
         </div>
       </Container>
     </>
