@@ -151,7 +151,7 @@ export function About() {
                 <span className="number">900+</span>
                 <span className="label">Problems</span>
               </div>
-              <p className="badge" style={{ color: "var(--green)" }}>Institute Rank 3</p>
+              <p className="badge" style={{ color: "var(--green)" }}>Institute Rank 1</p>
             </div>
           </div>
         </div>

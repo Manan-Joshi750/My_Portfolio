@@ -15,22 +15,22 @@ export function Project() {
       <div className="projects">
         {[
           {
+            title: "Aegis : AI-Powered Productivity Engine",
+            desc: "Built a multi-agent AI productivity companion to combat task paralysis using a custom mathematical urgency algorithm. Integrated Gemini 2.5 Flash for autonomous task routing, unstructured email extraction, and a distraction-free 'Focus Tunnel'. Features voice-activated controls, fluid animations, and gamification to actively force focus and execution.",
+            github: "https://github.com/Manan-Joshi750/Aegis-Productivity-Engine",
+            tech: ["MERN", "Zustand", "TailWind CSS", "Gemini SDK"],
+          },
+          {
+            title: "FinTrack : Personal Finance Management System",
+            desc: "Developed a full-stack personal finance application to seamlessly monitor financial health and wealth management. Features an interactive dashboard with a dynamic 50-30-20 budget tracker, predictive expense forecasting, month-to-month savings rollover, and secure JWT authentication. Includes a comprehensive transaction log with AI receipt scanning.",
+            github: "https://github.com/Manan-Joshi750/Finance_Management-Minor-Project",
+            tech: ["MERN", "TailWind CSS", "JWT Auth", "JavaScript"],
+          },
+          {
             title: "Talk-a-tive : Real-Time Chat Application",
             desc: "Built a full-stack real-time chat app using the MERN stack and Socket.io, supporting both one-on-one and group messaging. Integrated features like JWT authentication, live typing indicators, notification system, group creation with admin controls, and responsive design to ensure smooth user engagement across devices.",
             github: "https://github.com/Manan-Joshi750/Talk-a-tive__A_Chatting_Application",
             tech: ["HTML5", "TailWind CSS", "JavaScript", "MERN"],
-          },
-          {
-            title: "Get Me A Chai : Creator Support Platform",
-            desc: "Developed a Patreon-style platform using MERN stack and Next.js, enabling users to subscribe to creators for exclusive content. Implemented secure login, tier-based subscriptions, creator dashboards, payment integration, and responsive UI to deliver a seamless supporter–creator experience.",
-            github: "https://github.com/Manan-Joshi750/Get_Me_A_Chai",
-            tech: ["JavaScript", "MERN", "HTML5", "TailWind CSS"],
-          },
-          {
-            title: "Food Delivery Website : React-Powered Ordering UI",
-            desc: "Created a responsive food delivery web app using React.js and Vite. Users can explore food items, manage cart, and place orders with a seamless checkout flow. Includes secure authentication, intuitive UI, and a scalable front-end architecture optimized for both desktop and mobile.",
-            github: "https://github.com/Manan-Joshi750/Food_Delivery",
-            tech: ["React.js", "Vite.js", "HTML5", "CSS3 & TailWind CSS"],
           },
           {
             title: "MindEase : Your Mental Health Companion",
@@ -45,10 +45,10 @@ export function Project() {
             tech: ["JWT Authentication", "JavaScript", "MERN", "HTML5 & CSS3"],
           },
           {
-            title: "LinkTree Clone : Personal Link Hub with Next.js",
-            desc: "Built a personalized link management platform using the MERN stack and Next.js. Users can securely authenticate, customize their profiles, add social media links, and track link clicks with built-in analytics. Fully responsive design ensures seamless access across devices.",
-            github: "https://github.com/Manan-Joshi750/BitTree-LinkHub",
-            tech: ["Next.js", "MERN", "TailWind CSS", "HTML5 & CSS3"],
+            title: "Food Delivery Website : React-Powered Ordering UI",
+            desc: "Created a responsive food delivery web app using React.js and Vite. Users can explore food items, manage cart, and place orders with a seamless checkout flow. Includes secure authentication, intuitive UI, and a scalable front-end architecture optimized for both desktop and mobile.",
+            github: "https://github.com/Manan-Joshi750/Food_Delivery",
+            tech: ["React.js", "Vite.js", "HTML5", "CSS3 & TailWind CSS"],
           },
         ].map((project, index) => (
           <div
