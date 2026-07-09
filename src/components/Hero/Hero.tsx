@@ -30,7 +30,7 @@ export function Hero() {
           Math-Driven Logical Thinker
         </h3>
         <p className="small-resume" data-aos="fade-up" data-aos-delay="600">
-          Pre-Final Year | Actively Upskilling
+          Final Year | Actively Upskilling
         </p>
         <div data-aos="fade-up" data-aos-delay="800">
           <NavHashLink smooth to="#contact" className="button">
